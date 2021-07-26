@@ -1,0 +1,299 @@
+*{margin: 0%; padding: 0%;}
+#header-div{height: 60px;}
+#main-div{ width: 100%;}
+#nav-main-div{height: 80px; background-color: #0f2453;;}
+#nav-heading-div{float:left; margin-top: 10px;  margin-left: 50px;}
+#nav-tabs-div{float:right; margin-top: 30px;}
+#banner-bottom-div{height: 500px;}
+#banner-bottom-div1{text-align: center; margin-bottom: 60px; margin-top: 60px;}
+#banner-bottom-div2{margin: auto; width: 1150px; height: 285px;}
+.hotel-icons-div{float: left; width: 280px; height: 265px; background-color: rgba(52, 74, 113, 0.09); border: solid 1px #cfdbf3; }
+.yellow-line-div{height: 6px; width: 190px; margin-left: 40px; margin-top: 20px; background-color: rgba(212, 212, 10, 0.842);}
+
+.hotel-icons-tag{color: #ffce14; text-align: center; letter-spacing: 1px; display: none;  font-family: 'Federo', sans-serif;}
+.hotel-icons-heading{text-align: center; margin-top: 30px; font-size: 22px; letter-spacing: 1px;  font-family: 'Federo', sans-serif;}
+#heading-on-image{color: #ffce14; font-size: 5vw; position: absolute; top: 35vh; left: 25vw; letter-spacing: 2vw; font-family: 'Oswald', sans-serif}
+
+
+#nav-main-div { min-height: 70px; border-bottom: #ffce14 6px solid;}
+#nav-main-div a {text-decoration: none; font-size: 16px;}
+#nav-main-div ul {padding: 0; margin: 0;}
+.nav-li { float: left; display: inline; padding: 0 20px 0 20px; font-size: 1.4em;}
+.drop {list-style-type: none; margin: 0px; padding: 0px; position: absolute; display: none; z-index: 999;}
+.drop li a {color: white; text-decoration: none; display: block; padding: 15px; font-family: sans-serif; background-color:#050549; font-size: 8px;}
+.drop li a:hover {background-color:  #ffce14; color: black; font-weight: bold;}
+#grid:hover .drop {display: grid;}
+.nav-list{padding: 20px; color: white;}
+.nav-list:hover{ border-radius: 5px 40px; background-color: #ffce14; color: black; font-weight: bold;}
+
+#name{display:inline; color: #ffce14; font-family: "Federo", sans-serif;}
+#span1{color: white;}
+#nav-heading-div p{display:inline; margin-left: 16px; word-spacing: 10px; color:#ffce14;}
+.nav-tab-list{display:inline; padding: 18px; font-size: 14px; color: white;}
+ul{display: inline; margin-right: 50px; }
+#i1{ width: 100%;}
+.banner-list{display: inline;}
+.mySlides{width: 100%; height: 100%;}
+
+.hotel-icons-div:hover{background-color: #0f2453;; color:#ffce14;}
+.hotel-icons-div:hover .fa{color: #ffce14; transform: translateY(-10px); transition-duration: 0.3s;}
+.hotel-icons-div:hover .yellow-line-div{background-color: white;  transform: translateY(25px); transition-duration: 0.3s;}
+.hotel-icons-div:hover .hotel-icons-tag{display: block;transform: translateY(-5px); }
+.hotel-icons-div:hover .hotel-icons-heading{color: white; transform: translateY(-55px);transition-duration: 0.3s;}
+
+#service-main{background-image: url(../Images/image4.JPG); border:solid; font-family: "Federo", sans-serif; height: 700px;background-size: cover;}
+#service{height: 380px; width: 1150px ;margin: auto;}
+.service1{float: left;  solid; height: 375px; width: 540px;  background: rgba(0, 0, 0, 0.52)}
+#service-main h1{font-family: 'Oswald', sans-serif; color: white; text-align: center; font-size: 3vw; letter-spacing: 0.5vw; margin-bottom: 60px; margin-top: 110px;}
+.service1 h2{color: white; text-align: center;font-family: "Federo", sans-serif; margin: 15px 15px;  }
+.service-para{color: white; margin-left: 70px;margin-right: 70px; letter-spacing: 2px;  line-height: 35px; font-size: 13px; font-family: "Lato", sans-serif;}
+#service .fa{color: #ffce14;}
+.check{height: 100px; color: white;}
+.check i{margin-left: 60px;}
+.service1:hover{background-color: rgba(255, 255, 255, 0.159);transition-duration: 0.5s}
+
+.gallery-heading {color: #0f2453;; font-size: 3.5em; font-weight: 300;font-family: "Oswald", sans-serif; letter-spacing: 4px; margin-bottom: 1em; text-align: center; margin-top: 18px;}
+.gallery-grid {float: left; width: 25%; position: relative; height: 234px;}
+.gallery-grid img {width: 100%;}
+.gallery-grid .textbox {width: 100%;height: 100%;position: absolute;top: 0;left: 0; transform: scale(0);background-color: rgba(15, 36, 83, 0.62);}
+.gallery-grid:hover .textbox {transform: scale(1);}
+.textbox {transition: all 0.6s ease; text-align: center;}
+.textbox h4 {font-size: 1.5em;color: #fff;margin-top: 3.5em; letter-spacing: 5px;font-family: "Federo", sans-serif; font-weight: 600;}
+.textbox i.fa {font-size: 26px; color: #fff; margin: 6px; padding: 3px;}
+
+#room-rate{ height: 700px; margin-top: 45px; padding-top: 40px; }
+#four-rooms-block{height: 417px; width: 1200px; margin: auto;}
+#room-rate h1{text-align: center; font-size: 55px; padding-bottom: 30px; color: #0f2453;font-family: "Oswald", sans-serif; font-weight: 1; letter-spacing: 3px;}
+
+  .price-top {
+    text-align: center;
+    position: relative;
+  }
+  .price-top h4 {font-family: "Federo", sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    padding: 0.4em 1em;
+    background: #0f2453;;
+    font-weight: 300;
+    position: absolute;
+    top: 9em;
+    right: 0em;
+  }
+  .price-select h3 {
+    font-family: "Federo", sans-serif;
+    font-size: 2em;
+    display: inline;
+  
+  }
+  .price-select a {
+    font-size: 0.9em;
+    color: #000000;
+    background:#ffce14;
+    text-decoration: none;
+    border: 2px solid #ffce14;
+    padding: 0.5em 2em;
+    float: right;
+    
+  }
+  .price-select h3 span {
+    color: #ef0404;
+    font-size: 30px;
+  }
+  .price-bottom {
+    background: #fff;
+    padding-top: 40px;
+    width: 130px;
+    height: 40px;
+    margin: auto;
+  }
+  .rating{ display: inline;  margin-left: 10px;}
+  .rating span{padding: 0%; color: #2b2b2b;font-size: 14px; display: inline;}
+  .price-select {  height: 50px; width: 250px;}
+
+  .price-block {width: 250px; border: solid lightgrey;margin-left: 30px; height: 410px; float: left;}
+  .price-block:hover{transform: scale(1.08); transition-duration: 0.4s;}
+  
+  
+
+#about{height: 1100px; width: 100%; text-align: center; background-color: lightgray;}
+#about p{margin-left: 90px; margin-right: 90px; line-height: 2; font-size: 19px; font-weight: 500; font-family: "Lato", sans-serif;}
+#about h1{color:  #0f2453;; padding-top: 70px; font-size: 45px; font-family: "Federo", sans-serif; line-height: 2; letter-spacing: 3px;}
+#about-image-div{background-image: url(../Images/about.JPG); height: 450px; width: 1130px; margin: auto; background-size: cover; margin-top: 50px;}
+
+.main-contact{
+  height:590px ;
+  width: 100%;
+  background-image: url(../Images/contact.jpg);
+  background-size: cover;
+  padding-top: 110px;
+  background-position: center;
+  background-attachment: fixed; 
+  
+  }
+  .contact-div{
+    height: 430px;
+    width: 68em;
+    background-color: transparent;
+   margin: auto;
+  }
+  .main-oontact{
+  height: 900px;
+  width: 100%;
+  }
+  #contact-map{padding-top: 25px;
+    width: 480px;
+    height: 195px;
+    margin: auto;
+  }
+  iframe{
+    height: 190px;
+    width: 470px;
+  }
+  .contact1{
+  height: 410px;
+  width:530px;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.55);;
+  border: 2px black solid;
+  }
+.contact1 h1{color: white; text-align: center; font-size: 35px; font-family: "Federo", sans-serif;}
+#signup{font-size: 17px;font-family: "Lato", sans-serif;
+color: #ffce14;
+text-align: center; }
+.contact-p1{font-size: 17px; line-height: 30px; line-height: 3  ;
+letter-spacing: 1px;
+font-weight: 300;
+color: #fff;
+font-family: "Federo", sans-serif;}
+.form-control{font-size: 17px; height: 30px;
+font-weight: normal;
+color: #fff;
+background-color: transparent;
+border-color: #fff;
+font-family: "Lato", sans-serif; width: 420px;}
+.btn{color: white;
+background-color:  #55acee;
+font-size: 18px;
+border-radius: 6px;
+border: solid transparent;
+padding: 8px 17px;
+font-family: "Federo", sans-serif;
+}
+#contactForm{margin-left: 45px;}
+.contact-info strong{ color: #ffce14;}
+.contact-info{color: white; margin-left: 25px;font-family: "Federo", sans-serif; line-height: 2.2; letter-spacing: 0.8px;}
+
+.footer{border: solid transparent;font-family: "Lato", sans-serif;
+  height: 40px;
+  text-align: center;
+  background: #0f2453;;
+}
+.footer p {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 0.2em;
+  margin-top: 10px;
+}
+.footer p a {
+  color: #ffce14;
+  text-decoration: none;
+  transition: 0.5s all;
+}
+.footer p a:hover {
+  color: #fff;
+  transition: 0.5s all;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.modal {
+  display: none;
+  position: fixed;
+  padding-top: 30px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  
+}
+.modal-content {
+  background-color: #fefefe;
+  border-radius: 6px;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #888;
+  width: 45%;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#modal-img {
+  margin-top: 20px;
+  height: 100%;
+  width: 100%;
+}
+.modal-content h4 {
+
+  display: inline;
+  color: #0f2453;;
+  text-align: center;
+  font-size: 26px;
+}
+.modal-content h4 span {
+  color: #ffce14;
+}
+#modal-heading p {
+  
+  color: #636363;
+  font-size: 14px; 
+
+}
+#modal-heading {
+  color: #000;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+#modal-para{
+  letter-spacing: 1px;
+  font-size: 14.5px;
+  line-height: 22px;
+  text-align: left;}
+
+#myBtn{position: absolute; top: 70vh; left: 43vw; height: 40px; width: 140px; letter-spacing: 1.5px; background-color: #0f2453;
+    font-size: 14px; color: white; border: 2px solid white; font-family: 'Lato', sans-serif;}
+#myBtn:hover{background-color:  #ffce14; color: black; transition-duration: 0.5s;}
+#social{
+  height: 42px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1100px) 
+{
+    .hotel-icons-div {width: 20%;height: 65%;}
+    .hotel-icons-heading{font-size: 50%;}
+    .hotel-icons-tag{font-size: 10%;}
+    .yellow-line-div{width: 30%;}
+    .fa{font-size: 2px;}
+}
+
+
+.fa {padding: 10px; font-size: 40px; width: 15px; height:15px; text-align: center; text-decoration: none; color: #050549; margin: 4px 2px;}
+.fa:hover {opacity: 0.7;}
+.fa-facebook {background: #3b5998; color: white;}
+.fa-twitter {background: #55acee; color: white;}
+.fa-instagram {background: #dd4b39; color: white;}

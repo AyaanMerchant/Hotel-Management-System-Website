@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="../CSS/stallbooking.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div id="main">
+    <div id="left">
+      <div class="link">
+        <i class="fa fa-home" style="color: white; margin-right: 10px; margin-left: 10px;"></i>
+        <a href="index.html">HomePage</a>
+      </div>
+    </div>
+    <div id="right">
+      <h1>Promotional Stall Reservation</h1>
+      <form>
+        <div class="form">
+          <div class="form-header">
+            <h3>ORGANIZATION INFORMATION</h3>
+          </div>
+          <div class="form-group-heading" style="margin-top: 30px;  color: rgba(0, 0, 0, 0.795)">
+            <h4><label>Organization:</label></h4>
+          </div>
+          <div class="form-group">
+            <label>Name*</label>
+            <input class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Email*</label>
+            <input class="form-control">
+          </div>
+          <div class="form-group-heading" style="margin-top: 15px;  color: rgba(0, 0, 0, 0.795)">
+            <h4><label>Employee:</label></h4>
+          </div>
+          <div class="form-group">
+            <label>Name*</label>
+            <input class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Email*</label>
+            <input type="email" class="form-control">
+
+          </div>
+          <div class="form-group">
+            <label>Phone Number*</label>
+            <input maxlength="15" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form" style="width: 45%;">
+          <div class="form-header">
+            <h3>RESERVATION INFORMATION</h3>
+          </div>
+          <div class="form-group">
+            <label>Time Arrival*</label>
+            <select name="arr" class="form-control">
+              <option value="" selected=""></option>
+              <option value="12 pm">12 pm</option>
+              <option value="1 pm">1 pm</option>
+              <option value="2 pm">2 pm</option>
+              <option value="3 pm">3 pm</option>
+              <option value="4 pm">4 pm</option>
+              <option value="5 pm">5 pm</option>
+              <option value="6 pm">6 pm</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Duration (hour)*</label>
+            <select name="duration" class="form-control">
+              <option value="" selected=""></option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Reservation Start*</label>
+            <input name="cin" type="date" class="form-control" value="">
+          </div>
+
+          <div class="form-group">
+            <label>Reservation End*</label>
+            <input name="cout" type="date" class="form-control" value="">
+          </div>
+
+          <div class="form-group">
+            <label>Payment Method*</label>
+            <select name="payment" class="form-control">
+              <option value="Card" selected="">Card</option>
+              <option value="Cash" disabled="">Cash</option>
+            </select>
+          </div>
+
+      </form>
+
+
+    </div>
+
+    <center>
+      <input type="submit" id="submit" style="height:40px; width:130px">
+    </center>
+
+  </div>
+</body>
+
+</html>
